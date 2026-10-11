@@ -6,6 +6,8 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <!-- dotnet run is a bin mappabol inditsa, igy a ../../../forras utvonal mukodik -->
+    <RunWorkingDirectory>$(MSBuildProjectDirectory)/bin/$(Configuration)/$(TargetFramework)/</RunWorkingDirectory>
   </PropertyGroup>
 
 </Project>
